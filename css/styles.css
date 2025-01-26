@@ -33,6 +33,7 @@ main {
     padding: 0 15px;
 }
 
+
 /*------header--------*/
 
 .page-header {
@@ -45,13 +46,6 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     align-items: center;
 }
 
-.page-hero-section {
-background-image: linear-gradient(to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
-        background-size cover;
-}
 
 .page-header-list {
     display: flex;
@@ -146,7 +140,16 @@ background-color: #404bbf;
 .page-hero-section{
     padding: 188px 0;
     background-color: #2e2f42;
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/people-office.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1440px;
 }
+
 /*.page-hero-container {
     display: flex;
     flex-direction: column;
@@ -173,7 +176,7 @@ background-color: #404bbf;
         border: none;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
-        background: #4d5ae5;
+        background-color: #4d5ae5;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -182,6 +185,9 @@ background-color: #404bbf;
         text-align: center;
         border-radius: 4px;
         margin: 0 auto;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     }
 
 .page-hero-button:hover,
