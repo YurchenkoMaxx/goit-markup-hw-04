@@ -271,7 +271,7 @@ background-color: #f4f4fd;
     margin-bottom: 72px;
 }
 .ourteam-about {
-    padding: 32px 0;
+    padding: 32px 0 8px;
 }
 .ourteam-list {
     display: flex;
@@ -300,7 +300,26 @@ background-color: #f4f4fd;
     text-align: center;
     color: #434455;
 }
-
+.soc-team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 24px;
+    max-width: 264px;
+height: 40px;
+margin-bottom: 32px;
+}
+.soc-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    fill: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* ------------------SECTION 4 PORTFOLIO--------------- */
