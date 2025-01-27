@@ -273,10 +273,8 @@ background-color: #f4f4fd;
     margin-bottom: 72px;
 }
 .ourteam-about {
-    padding: 32px 0 8px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08);
+    padding: 32px 0;
+
 }
 .ourteam-list {
     display: flex;
@@ -287,6 +285,9 @@ background-color: #f4f4fd;
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     width: calc((100% - 72px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .ourteam-name {
     font-weight: 500;
@@ -305,7 +306,7 @@ background-color: #f4f4fd;
     text-align: center;
     color: #434455;
 }
-.soc-team {
+.soc-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -313,7 +314,6 @@ background-color: #f4f4fd;
     gap: 24px;
     max-width: 264px;
 height: 40px;
-margin-bottom: 32px;
 }
 .soc-link {
     width: 40px;
