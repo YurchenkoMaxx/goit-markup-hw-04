@@ -151,14 +151,7 @@ background-color: #404bbf;
 
 }
 
-/*.page-hero-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 48px;
-    justify-content: center;
-    align-items: center;
-}*/
+
 .page-hero-tittle{
     font-size: 56px;
     line-height: 1.07;
@@ -224,7 +217,20 @@ background-color: #404bbf;
 .chapter-list{
     display: flex;
     gap: 24px;
-    }
+}
+
+.chapter-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    max-width: 264px;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+border-radius: 4px;
+background-color: #f4f4fd;
+}
+
 
 
 .chapter-tittle {
