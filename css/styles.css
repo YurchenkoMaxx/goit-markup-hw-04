@@ -306,6 +306,9 @@ background-color: #f4f4fd;
     text-align: center;
     color: #434455;
 }
+.soc-team {
+    padding-bottom: 32px;
+}
 .soc-list {
     display: flex;
     align-items: center;
