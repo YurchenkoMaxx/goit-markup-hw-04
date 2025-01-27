@@ -432,6 +432,10 @@ height: 40px;
     justify-content: center;
     margin-right: 120px;
 }
+.foter-webstudio {
+    margin-right: 120px;
+}
+
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
@@ -459,7 +463,8 @@ height: 40px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #fff
+        color: #fff;
+        margin-bottom: 16px;
 }
 .soc-footer-link {
         width: 40px;
@@ -475,5 +480,5 @@ height: 40px;
 }
 .soc-footer-link:hover,
 .soc-footer-link:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
