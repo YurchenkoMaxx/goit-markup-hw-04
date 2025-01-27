@@ -258,8 +258,6 @@ background-color: #f4f4fd;
 .ourteam {
         background-color: #F4F4FD;
         padding: 120px 0;
-
-        
 }
 
 
@@ -310,7 +308,7 @@ background-color: #f4f4fd;
 .soc-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     gap: 24px;
     max-width: 264px;
@@ -326,7 +324,10 @@ height: 40px;
     align-items: center;
     justify-content: center;
 }
-
+.soc-link:hover,
+.soc-link:focus {
+    background-color: #404bbf;
+}
 
 /* ------------------SECTION 4 PORTFOLIO--------------- */
 .portfolio {
