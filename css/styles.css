@@ -429,8 +429,6 @@ height: 40px;
 .footer-container {
     display: flex;
     align-items: baseline;
-    justify-content: center;
-    margin-right: 120px;
 }
 .foter-webstudio {
     margin-right: 120px;
